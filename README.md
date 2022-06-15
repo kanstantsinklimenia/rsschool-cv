@@ -1,2 +1,5 @@
 # rsschool-cv
-Task for RS School
+
+https://kanstantsinklimenia.github.io/rsschool-cv/
+
+https://kanstantsinklimenia.github.io/rsschool-cv/cv
