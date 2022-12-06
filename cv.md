@@ -1,5 +1,5 @@
 # **Kanstantsin Klimenia**
-![profile-photo](/rsschool-cv/photo.jpg =100x100)
+![profile-photo](/rsschool-cv/photo.jpg)
 ## Junior FrontEnd Developer
 ## Contacts:
 * Location: Warszawa, Poland
