@@ -8,6 +8,9 @@ html {
 
 body {
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
 }
 
 .container {
@@ -28,4 +31,26 @@ body {
     align-items: center;
     text-decoration: none;
     color: white;
+    font-weight: bold;
+}
+
+.profile-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    color: #AA71D7;
+}
+
+.profile-photo {
+    border-radius: 50px;
+    box-shadow: 2px 1px 5px #999999;
 }
