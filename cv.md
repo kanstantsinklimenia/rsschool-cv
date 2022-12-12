@@ -1,5 +1,5 @@
 # **Kanstantsin Klimenia**
-![profile-photo](/rsschool-cv/photo.png)
+![profile-photo](assets/photo.png)
 ## Junior FrontEnd Developer
 ## Contacts:
 * Location: Warszawa, Poland
@@ -34,5 +34,5 @@ name();
 * HTML, CSS and JavaScript basics [WAYUP courses](https://wayup.in/)
 # Languages
 * English: Intermediate according to the [EFSET](https://www.efset.org/)
-![englishlevel](/rsschool-cv/englishlevel.png)
+![englishlevel](assets/englishlevel.png)
 * Polish: A0-A1
