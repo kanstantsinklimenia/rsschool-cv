@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icon.ico">
+    <link rel="icon" href="assets/icon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
 </head>
 <body>
     <header class="header">
-        <div>
+        <div class="container">
             <nav>
                 <ul class="nav-list">
                     <li><a class="nav-list" href="#contacts">Contacts</a></li>
@@ -29,13 +29,55 @@
     </header>
     <main class="main">
         <div class="container">
+
             <section class="section-profile">
-                <img src="photo.png" alt="photo" width="250px" height="250px" class="profile-photo">
+                <img src="assets/photo.png" alt="photo" width="250px" height="250px" class="profile-photo">
                 <div class="profile-name">
                     <h1>Kanstantsin Klimenia</h1>
                     <h3>Junior Front-End Developer</h3>
                 </div>
             </section>
+
+            <section class="section" id="contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li>Location: Warszawa, Poland</li>
+                    <li>Phone: +48 516 601 379</li>
+                    <li>E-mail: kostyaklimenya1304@gmail.com</li>
+                    <li>Telegram: @g_kke</li>
+                </ul> 
+            </section>
+
+            <section class="section" id="about">
+                <h2>About</h2>
+                <p>I started my career in a leading insurance company in Belarus when I was 18 years old. Then I worked in a clothing store and in a pizzeria. My acquaintance with the IT-sphere began at the beginning of 2020. Then I worked as an auditor’s assistant on a project in an IT company. And since that time, I began to be more interested in various areas in IT. At the beginning of 2022, I learned about the RSSchool and decided to learn more about the IT. So here I am :)</p>
+            </section>
+
+            <section class="section" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML (basic)</li>
+                    <li>CSS (basic)</li>
+                    <li>JavaScript (basic)</li>
+                    <li>Git (basic)</li>
+                </ul>
+            </section>
+
+            <section class="section" id="code">
+                <h2>Code</h2>
+                <pre>
+                    <code>
+                        function name() {
+                            let userFirstName = "Kanstantsin";
+                            console.log(userFirstName);
+                            let userSecondName = "Klimenia";
+                            console.log(userSecondName);
+                        }
+                        name();
+                    </code>
+                </pre>
+            </section>
+
         </div>
     </main>
     <footer class="footer">

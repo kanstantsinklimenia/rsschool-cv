@@ -7,6 +7,9 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     width: 100vw;
@@ -53,4 +56,13 @@ body {
 .profile-photo {
     border-radius: 50px;
     box-shadow: 2px 1px 5px #999999;
+}
+
+.main {
+    border: 1px solid black;
+}
+
+.pre-code {
+    margin: 0;
+    padding: 0;
 }
