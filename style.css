@@ -59,6 +59,19 @@ body {
     box-shadow: 2px 1px 5px #999999;
 }
 
-.main {
-    border: 1px solid black;
+.footer {
+    background-color: #AA71D7;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.school-logo {
+    background-size: contain;
+    background-repeat: no-repeat;
 }
